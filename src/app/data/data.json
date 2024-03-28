@@ -1,0 +1,83 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Complete project proposal",
+      "schedule": "2024-04-05",
+      "priority": "High",
+      "status": "Complete",
+      "action_required": "Review and finalize proposal content"
+    },
+    {
+      "id": "2",
+      "title": "Prepare for client meeting",
+      "schedule": "2024-04-10",
+      "priority": "Medium",
+      "status": "Complete",
+      "action_required": "Gather presentation materials and agenda"
+    },
+    {
+      "id": "3",
+      "title": "Send follow-up emails",
+      "schedule": "2024-04-02",
+      "priority": "Low",
+      "status": "Complete",
+      "action_required": "Compose and send follow-up emails to clients"
+    },
+    {
+      "id": "4",
+      "title": "Review quarterly report",
+      "schedule": "2024-04-15",
+      "priority": "High",
+      "status": "Incomplete",
+      "action_required": "Analyze data and prepare insights"
+    },
+    {
+      "title": "Update website content",
+      "schedule": "2024-04-07",
+      "priority": "Medium",
+      "status": "Incomplete",
+      "id": "5"
+    },
+    {
+      "id": "6",
+      "title": "Attend team meeting",
+      "schedule": "2024-04-03",
+      "priority": "Low",
+      "status": "Incomplete",
+      "action_required": "Prepare agenda items and notes for the meeting"
+    },
+    {
+      "id": "7",
+      "title": "Finalize budget proposal",
+      "schedule": "2024-04-12",
+      "priority": "High",
+      "status": "Complete",
+      "action_required": "Review financial data and projections"
+    },
+    {
+      "id": "8",
+      "title": "Conduct market research",
+      "schedule": "2024-04-20",
+      "priority": "Medium",
+      "status": "Incomplete",
+      "action_required": "Collect and analyze market data"
+    },
+    {
+      "id": "9",
+      "title": "Send invoice to client",
+      "schedule": "2024-04-05",
+      "priority": "Low",
+      "status": "Complete",
+      "action_required": "Generate and send invoice for completed work"
+    },
+    {
+      "id": "10",
+      "title": "Prepare monthly progress report",
+      "schedule": "2024-04-25",
+      "priority": "High",
+      "status": "Incomplete",
+      "action_required": "Compile project updates and achievements"
+    }
+  ]
+}

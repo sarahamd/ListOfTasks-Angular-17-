@@ -1,0 +1,10 @@
+<div>
+    <h3>Add your Task</h3>
+     <input #title type="text" required placeholder="title">
+     <input #schedule type="date" required placeholder="schedule">
+     <input #priority type="text" required placeholder="high or low or medium">
+     <input #status type="text" required placeholder="status" value="Incomplete" disabled>
+ <!-- send values of inputs to cann add to my data -->
+     <button (click)="AddTasks(title.value, schedule.value, priority.value, status.value)">Add new task</button>
+ </div>
+ 

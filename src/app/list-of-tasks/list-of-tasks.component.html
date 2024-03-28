@@ -1,0 +1,48 @@
+
+        <h3>Tasks</h3>
+        <table>
+            <thead>
+
+          <tr>
+            <th>Title</th>
+            <th>schedule</th>
+            <th>priority</th>
+            <th>status</th>
+            <th>update</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+
+          <tbody>
+            <!-- loop for data you got it from file ts to dislay data -->
+            @for (data of Tasks; track data.id) {     
+                <tr >
+              <td >
+                <ng-container *ngIf="data.status === 'Complete'">
+                  <fa-icon [icon]="iconcheck"></fa-icon>
+                </ng-container>
+                <ng-container *ngIf="data.status === 'Incomplete'">
+                  <fa-icon [icon]="iconclose"></fa-icon>
+                </ng-container>
+                {{ data.title }}
+              </td>
+              <td>{{ data.schedule }}</td>
+              <td>{{ data.priority }}</td>
+                <!-- click event and you send data to function to know about status to can change it 
+                and here check for status to change color if complete green if not red -->
+              <td (click)="toggleStatus(data)" [style.color]="data.status === 'Complete' ? 'green' : 'red'" class="stylestatus">
+                {{ data.status }}
+            </td>
+
+            <td routerLink="/update/{{data.id}}"> <fa-icon [icon]="iconupdate"></fa-icon></td>
+
+            <td (click)="deleteTask(data)"> <fa-icon [icon]="icontrash"></fa-icon></td>
+            </tr>}
+          </tbody>
+        </table>
+        <div routerLink="/add">
+          <p>+</p>
+      </div>
+
+          
+      

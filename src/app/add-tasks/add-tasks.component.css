@@ -1,0 +1,24 @@
+div{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    align-items: center;   
+    border: 1px solid;
+    padding-bottom: 5px;
+ 
+
+}
+input{
+    width: 50%; 
+    
+}
+h3{
+    text-align: center;
+    color: rgb(19, 58, 19);
+}
+button{
+    background-color: rgb(19, 58, 19) ;
+    color: white;
+    
+
+}

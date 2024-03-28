@@ -1,0 +1,10 @@
+<div>
+    <h3>update your Task</h3>
+     <input #id type="text" required placeholder="id" disabled value="{{Task?.id}}">
+     <input #title type="text" required placeholder="title" value="{{Task?.title}}">
+     <input #schedule type="date" required placeholder="schedule"  value="{{Task?.schedule}}">
+     <input #priority type="text" required placeholder="high or low or medium" value="{{Task?.priority}}">
+     <input #status type="text" required placeholder="status" value="{{Task?.status}}" disabled >
+ 
+     <button (click)="update(id.value,title.value, schedule.value, priority.value, status.value)">Add new task</button>
+ </div>
